@@ -3,17 +3,24 @@
     <head>
         <meta charset="utf-8">
         <link rel="stylesheet" href="./styles.css" type="text/css">
-        <title></title>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap" rel="stylesheet">
+        <title>Site HTML DIO</title>
     </head>
     <body>
         <header>
-            <img src="./imgs/desenhos-de-joinha-like-para-colorir-6.jpg" style="width: 100px;" height="100px;" alt="Joinha">
-            <h1 id="title">Primeiro Site</h1>
-            <nav><a href="#">Menu 1</a></nav>
-            <nav><a href="#">Menu 2</a></nav>
-            <nav><a href="#">Menu 3</a></nav>
-            <nav><a href="#">Menu 4</a></nav>
-        </header>
+            <div id="title_logo">
+				<img src="./imgs/desenhos-de-joinha-like-para-colorir-6.jpg" alt="Joinha" class="photo">
+				<h1 id="title">Primeiro Site</h1>
+			</div>
+            <div id="menu_topo">
+				<nav><a href="#">Menu 1</a></nav>
+				<nav><a href="#">Menu 2</a></nav>
+				<nav><a href="#">Menu 3</a></nav>
+				<nav><a href="#">Menu 4</a></nav>
+			</div>
+		</header>
         <section>
             <header>
                 <h2 class="subtitle">Lista de Postagens</h2>
@@ -22,15 +29,15 @@
         <article class="post">
             <header>
                 <h3 class="post_title">Artigo</h3>
-                <img src="./imgs/highlight_code.png" alt="Editor de texto mostrando código HTML">
+                <img src="./imgs/highlight_code.png" alt="Editor de texto mostrando código HTML" class="post_image">
             </header>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut nibh ligula. Vivamus vitae dolor eu nisi dictum ultricies bibendum a risus.</p>
+            <p class="post_content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut nibh ligula. Vivamus vitae dolor eu nisi dictum ultricies bibendum a risus.</p>
             <a href="www.linkedin.com" target="_blank">Linkedin</a>
             <a href="mailto:nicolasbessa@outlook.com" target="_blank">Email</a>
         </article>
         <footer>
             <p>Informações de Contato</p>
-            <ul>
+            <ul class="lista_contatos">
                 <li><a href="#" target="_blank">Rede Social 1</a></li>
                 <li><a href="#" target="_blank">Rede Social 2</a></li>
                 <li><a href="#" target="_blank">Rede Social 3</a></li>
