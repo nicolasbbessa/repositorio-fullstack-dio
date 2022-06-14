@@ -9,9 +9,6 @@ header {
     height: 60px;
     display: flex;
     align-items: center;
-}
-
-.title-site {
     color: white;
 }
 
@@ -55,30 +52,80 @@ ul li a {
 main {
     font-family: 'Work Sans';
     font-weight: 300;
-    
+    color: #223b63;
 }
 
 .apresentacao {
-    display: flex;
     align-items: center;
+    justify-content: space-between;
+    height: 50vh;
 }
 
+.text-saiba h1 {
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+.text-saiba p {
+    margin-bottom: 15px;
+}
 .saiba-mais {
     background-color: #223b63;
+    border-top: 10px;
     width: 150px;
     height: 50px;
-    border-radius: 50%;
+    border-radius: 30px;
     text-align: center;
-    
-    
+    line-height: 50px;  
 }
+
 .saiba-mais a {
     color: white;
     text-decoration: none;
     font-weight: 600;
 }
 
-.quem-somos {
-    display: flex;
+#quem-somos {
+    flex-direction: row-reverse;
+    justify-content: space-between;
     align-items: center;
+    height: 50vh;
+}
+
+#quem-somos h2 {
+    color: #223b63;
+    font-size: 32px;
+    display: flex;
+}
+
+#quem-somos h2::before {
+    content: "";
+    height: 40px;
+    width: 5px;
+    margin-right: 10px;
+    background-color: #223b63;
+    position: relative;
+}
+
+#quem-somos p {
+    text-align: justify;
+    margin-top: 15px;
+}
+
+#servicos {
+    background-color: #223b63;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 50vh;
+    border-radius: 5px;
+}
+
+#servicos h2 {
+    font-size: 32px;
+    text-align: center;
+    margin-top: 25px;
+}
+.servicos-images {
+    justify-content: space-around;
 }
