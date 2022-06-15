@@ -1,0 +1,150 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fafafa;
+    margin: auto;
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+#login-geral {
+    background-color: #fff;
+    width: 300px;
+    height: 400px;
+    border: 1px solid #dbdbdb;
+    margin: auto;
+    margin-top: 100px;
+    flex-direction: column;
+}
+
+.logo-insta {
+    margin-top: 50px;
+}
+
+.login-user-pass {
+    width: 250px;
+    height: 40px;
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+    background-color: #fafafa;
+    color: black;
+    margin-top: 10px;
+}
+
+.botao-entrar {
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    border: 0 solid #b2dffc;
+    background-color: #b2dffc;
+    color: white;
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+.ou {
+    display: flex;
+    align-items: center;
+    width: 250px;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.ou::before {
+    content: "";
+    height: 1px;
+    width: 95px;
+    background-color: #dbdbdb;
+    margin-right: 15px;
+    position: relative;
+}
+.ou::after {
+    content: "";
+    height: 1px;
+    width: 95px;
+    background-color: #dbdbdb;
+    margin-left: 15px;
+    position: relative;
+}
+
+.login-facebook {
+    margin-top: 15px;
+    justify-content: center;
+}
+
+.logo-face img {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.login-facebook a {
+    text-decoration: none;
+    color: #385185;
+    font-size: 12px;
+    font-weight: 800;
+}
+
+.nova-senha {
+    margin-top: 15px;
+}
+
+.nova-senha a {
+    color: #385185;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+#cadastro {
+    background-color: #fff;
+    height: 50px;
+    width: 300px;
+    border: 1px solid #dbdbdb;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+#apps {
+    margin-top: 10px;
+}
+
+.fig-lojas a img {
+    margin-top: 15px;
+    height: 40px;
+}
+
+.lista-footer {
+    margin: 0 auto;
+    margin-top: 10px;
+    list-style: none;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    justify-content: center;
+}
+
+.lista-footer li {
+    padding: 5px;
+}
+
+.lista-footer li a {
+    text-decoration: none;
+    color: gray;
+}
+
+.footer-lang {
+    margin: auto;
+    margin-top: 10px;
+    align-items: center;
+    max-width: 500px;
+    justify-content: center;
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Página Inicial do Instagram</title>
+</head>
+<body>
+    <main>
+        <div id="login-geral" class="flex-container">
+            <div class="logo-insta">
+                <img src="./img/7a252de00b20.png" alt="logo instagram">
+            </div>
+            <form>
+                <label class="username">
+                    <input class="login-user-pass" id="user" type="text" required placeholder=" Telefone, nome de usuário ou email" aria-label="Telefone, nome de usuário ou email"/>
+                </label>
+                <label class="senhamestra">
+                    <input class="login-user-pass" id="password" type="password" required placeholder="Senha" aria-label=" Senha"/>
+                </label>
+                <button class="botao-entrar" type="submit">Entrar</button>
+            </form>
+            <div>
+                <div class="ou">
+                    <p>OU</p>
+                </div>
+                <div class="login-facebook flex-container">
+                    <div class="logo-face">
+                        <img src="./img/124010.png" alt="login facebook">
+                    </div>
+                    <a href="#">Entrar com o Facebook</a>
+                </div>
+                <div class="nova-senha">
+                    <a href="#">Esqueceu a Senha?</a>
+                </div>
+            </div>
+        </div>
+        <div id="cadastro">
+            <p>Não tem uma conta? <a href="#">Cadastre-se</a></p>
+        </div>
+        <div id="apps">
+            <p>Obtenha o aplicativo.</p>
+            <div class="fig-lojas">
+                <a href=""><img src="./img/68006a2bb372.png" alt="appstore"></a>
+                <a href="#"><img src="./img/2f2a0c05b2f3.png" alt="playstore"></a>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <ul class="lista-footer flex-container">
+            <li><a href="#">Meta</a></li>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Carreiras</a></li>
+            <li><a href="#">Ajuda</a></li>
+            <li><a href="#">API</a></li>
+            <li><a href="#">Privacidade</a></li>
+            <li><a href="#">Termos</a></li>
+            <li><a href="#">Principais Contas</a></li>
+            <li><a href="#">Hashtags</a></li>
+            <li><a href="#">Localizações</a></li>
+            <li><a href="#">Instagram Lite</a></li>
+            <li><a href="#">Carregamento de contatos e não usuários</a></li>
+        </ul>
+        <div class="footer-lang flex-container">
+            <select id="langs">
+                <option value="pt-br">Português (Brasil)</option>
+                <option value="nop">Só Português Mesmo</option>
+            </select>
+            <p>© 2022 Instagram from Meta</p> 
+        </div>
+    </footer>
+</body>
+</html>
